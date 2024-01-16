@@ -23,4 +23,11 @@ ul {
     width: 100%;
     height: 100%; 
     object-fit: cover;
+
+    transition: transform 250ms linear;
+}
+
+.gallery-image:hover,
+.gallery-image:focus {
+    transform: scale(1.03);
 }
